@@ -1,0 +1,54 @@
+/* ... existing styles ... */
+
+.mrss-feed {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.feed-items {
+  display: grid;
+  gap: 2rem;
+}
+
+.feed-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.feed-item:hover {
+  transform: translateY(-2px);
+}
+
+.feed-item h2 {
+  color: #ec5990;
+  margin-bottom: 1rem;
+}
+
+.feed-item p {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.feed-video {
+  width: 100%;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+
+.read-more {
+  display: inline-block;
+  background: #516391;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.read-more:hover {
+  background: #ec5990;
+}
